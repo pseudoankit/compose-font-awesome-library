@@ -8,6 +8,9 @@ import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
+import lazycoder21.droid.compose.FaIconType
+import lazycoder21.droid.compose.FaIcons
+import lazycoder21.droid.compose.FontAwesomeIcon
 import lazycoder21.droid.fontawesome.ui.theme.FontAwesomeComposeTheme
 
 class MainActivity : ComponentActivity() {
@@ -15,9 +18,10 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             FontAwesomeComposeTheme {
-                // A surface container using the 'background' color from the theme
                 Surface(color = MaterialTheme.colors.background) {
-                    Greeting("Android")
+                    FontAwesomeIcon(
+                        faIconType = FaIcons.AddressBook
+                    )
                 }
             }
         }
