@@ -11,7 +11,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.Dp
@@ -34,7 +33,6 @@ fun CircularFontAwesomeIcon(
     onClick: (() -> Unit)? = null,
 ) {
 
-    val scaleFactor = LocalConfiguration.current.fontScale
     val fontSize = size.scaleIndependentFontSize
 
     val faTextStyle = textStyle.copy(
