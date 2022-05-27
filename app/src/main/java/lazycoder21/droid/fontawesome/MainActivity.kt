@@ -19,9 +19,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             FontAwesomeComposeTheme {
                 Surface(color = MaterialTheme.colors.background) {
-                    FontAwesomeIcon(
-                        faIconType = FaIcons.AddressBook
-                    )
+
                 }
             }
         }

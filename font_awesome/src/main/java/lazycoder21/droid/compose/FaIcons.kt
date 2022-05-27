@@ -1,6 +1,6 @@
 package lazycoder21.droid.compose
 
-import lazycoder21.droid.compose.FaIconType.*
+import lazycoder21.droid.compose.FaIcon.*
 
 object FaIcons {
 
