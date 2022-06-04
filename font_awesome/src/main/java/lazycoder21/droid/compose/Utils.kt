@@ -30,5 +30,3 @@ val Dp.scaleIndependentFontSize: TextUnit
         val materialIconOffset = 3.dp
         return ((this - materialIconOffset).value / scaleFactor).sp
     }
-
-val FaIcon.icon get() = this.src.toChar().toString()

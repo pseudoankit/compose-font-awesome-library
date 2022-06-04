@@ -42,7 +42,7 @@ fun CircularFontAwesomeIcon(
     )
 
     BasicText(
-        text = icon.icon,
+        text = icon.src,
         modifier = modifier
             .wrapContentWidth()
             .clip(CircleShape)
